@@ -5,11 +5,11 @@ import profilepic from "./profilepic.jpg"
 
 function LinkTree(){
     return (
-        <div>
+        <div  className="linktree">
             <section id="profile-section">
                 <img src={profilepic} alt="" id="profile_img"/>
-                <h4 id="twitter">manokorenyasha</h4>
-                <h4 id="slack">blessed nyasha</h4>
+                <text id="twitter">manokorenyasha</text>
+                <text id="slack">blessed nyasha</text>
             </section>
             <section id="link-section">
                 <button id="btn_twitter"><a href="https://twitter.com/ManokoreNyasha">Twitter Link</a></button>

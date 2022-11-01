@@ -1,0 +1,29 @@
+
+#profile-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile_img {
+    padding-top: 0px;
+    width: 88px;
+    height: 88px;
+    border-radius: 275px;
+}
+
+text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+}
+
+#slack {
+    display: none;
+}
