@@ -1,3 +1,7 @@
+.linktree {
+    
+    
+}
 
 #profile-section {
     padding-top: 20px;
@@ -26,4 +30,29 @@ text {
 
 #slack {
     display: none;
+}
+
+#link-section {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+button {
+    background: #F4F5F7;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px 32px;
+    gap: 8px;
+
+    width: 1152px;
+    height: 76px;
+}
+
+a {
+    text-decoration: none; 
 }
